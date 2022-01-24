@@ -4,7 +4,7 @@ import cors from 'cors';
 import routes from './routes';
 
 //Importando a database
-// import './database';
+import './database';
 
 class App {
   constructor(){
