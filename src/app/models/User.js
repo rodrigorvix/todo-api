@@ -14,7 +14,7 @@ class User extends Model {
     );
     return this;
   }
-  checkPassword(senha) {
+  checkPassword(password) {
      return password === this.password;
   }
 }
